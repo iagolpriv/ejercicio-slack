@@ -1,0 +1,800 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Helvetica;
+}
+
+header {
+  width: 390px;
+  height: 964px;
+  background-color: rgb(84, 21, 84);
+}
+
+.barra--div {
+  width: 390px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8%;
+}
+
+.logo {
+  width: 120px;
+  height: 50px;
+  padding-left: 1%;
+}
+
+.menus {
+  width: 23px;
+  height: 23px;
+  padding-right: 4%;
+}
+
+.pers {
+  font-size: 3rem;
+  color: #ffffff;
+  letter-spacing: -2px;
+  line-height: 1.0625;
+  padding: 2%;
+  font-weight: 700;
+  text-align: center;
+}
+
+.prod {
+  color: rgb(236, 178, 46);
+  letter-spacing: -2px;
+  line-height: 1.0625;
+  font-weight: 700;
+  text-align: center;
+}
+
+.conect {
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 1.444;
+  letter-spacing: -0.2px;
+  font-size: 1rem;
+  padding: 3%;
+  text-align: center;
+}
+
+.btn {
+  width: 390px;
+  height: 122px;
+  padding: 3%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn--one {
+  width: 359px;
+  height: 56px;
+  background-color: #ffffff;
+  font-weight: bold;
+  color: rgb(84, 21, 84);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid transparent;
+}
+
+.google {
+  width: 49px;
+  height: 49px;
+  margin-right: 9%;
+}
+
+.btn--two {
+  width: 359px;
+  height: 56px;
+  background-color: rgb(66, 133, 244);
+  font-weight: bold;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid transparent;
+}
+
+.div--video {
+  text-align: center;
+  justify-content: center;
+  width: 390px;
+  height: 370px;
+}
+
+.video {
+  background-size: cover;
+  background-position: center;
+  width: 390px;
+  height: 370px;
+  padding-top: 5%;
+}
+
+.text {
+  padding: 3%;
+  font-weight: 700;
+  line-height: 1.125;
+  letter-spacing: 0.8px;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+main {
+  width: 390px;
+  height: 100%;
+  background-color: rgb(244, 237, 228);
+}
+
+.section--two {
+  padding: 48px 0px 0px;
+  width: 390px;
+  height: 235px;
+  text-align: center;
+}
+
+.text {
+  margin: 0px 0px 16px;
+  padding: 0px 31.232px;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  line-height: 1.125;
+  letter-spacing: 0.8px;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.contenedor-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.fila {
+  display: flex;
+  flex: 1;
+}
+
+.imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 12px;
+}
+
+.imagen img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.ficciones {
+  width: 390px;
+  height: 773px;
+  margin-top: 50px;
+}
+
+.ficciones--div {
+  width: 375px;
+  height: 404px;
+}
+
+.ficciones--div__image {
+  max-width: 100%;
+  height: auto;
+  float: left;
+}
+
+.agile--div {
+  width: 375px;
+  height: 302px;
+}
+
+.agile--div__h2 {
+  width: 350px;
+  height: 114px;
+  font-weight: 700;
+  line-height: 1.1875;
+  letter-spacing: -0.3px;
+  margin-top: 10px;
+  padding: 20px;
+  font-size: 32px;
+}
+
+.agile--div__p {
+  width: 350px;
+  height: 114px;
+  font-weight: 400;
+  line-height: 1.4444;
+  letter-spacing: normal;
+  font-size: 1.125rem;
+  display: flex;
+  justify-content: center;
+  padding: 0px 20px 5px 20px;
+  margin-bottom: 26px;
+}
+
+.lnk {
+  width: 350px;
+  height: 38px;
+  line-height: 1.4444;
+  letter-spacing: normal;
+  font-size: 1.125rem;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  padding: 0px 20px 48px 20px;
+  color: #1264a3;
+  cursor: pointer;
+  text-decoration: none;
+  word-break: break-word;
+}
+
+.equip {
+  width: 390px;
+  height: 822px;
+  padding-top: 48px;
+}
+
+.equip--div {
+  width: 390px;
+  height: 405px;
+  display: block;
+}
+
+.equip--div__img {
+  max-width: 100%;
+  height: auto;
+  float: right;
+}
+
+.job--div {
+  width: 390px;
+  height: 726px;
+  padding-top: 40px;
+}
+
+.job--div__h2 {
+  width: 350px;
+  height: 76px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.1875;
+  letter-spacing: -0.3px;
+  padding: 0px 20px 20px 20px;
+}
+
+.job--div__p {
+  width: 350px;
+  height: 114px;
+  font-weight: 400;
+  line-height: 1.4444;
+  letter-spacing: normal;
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  padding: 0px 20px 0px 20px;
+}
+
+.sale {
+  width: 390px;
+  height: 730px;
+}
+
+.sale--div {
+  width: 390px;
+  height: 405px;
+  display: block;
+}
+
+.sale--div__img {
+  max-width: 100%;
+  height: auto;
+  float: left;
+}
+
+.gather--div__h2 {
+  width: 350px;
+  height: 55px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.1875;
+  letter-spacing: -0.3px;
+  padding: 30px 20px 0px 20px;
+}
+
+.gather--div__p {
+  width: 350px;
+  height: 148px;
+  font-weight: 400;
+  line-height: 1.4444;
+  letter-spacing: normal;
+  font-size: 1.125rem;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 0px 20px;
+}
+
+.bigequip {
+  width: 390px;
+  height: 950px;
+  background-color: rgb(255, 255, 255);
+}
+
+.bigequip--div {
+  width: 390px;
+  height: 405px;
+  display: block;
+}
+
+.bigequip--div__h3 {
+  width: 350px;
+  height: 76px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.1875;
+  letter-spacing: -0.3px;
+  padding: 70px 20px 20px 20px;
+  text-align: center;
+}
+
+.bigequip--div__p {
+  width: 350px;
+  height: 80px;
+  font-weight: 400;
+  line-height: 1.4444;
+  letter-spacing: normal;
+  font-size: 1.125rem;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: center;
+  padding: 25px 20px 0px 20px;
+  text-align: center;
+}
+
+.btn {
+  width: 366.6px;
+  height: 122px;
+  padding: 3%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn--bigequip__one {
+  width: 350px;
+  height: 56px;
+  background-color: rgb(74, 21, 75);
+  font-weight: bold;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid transparent;
+}
+
+.btn--bigequip__two {
+  width: 350px;
+  height: 56px;
+  background-color: #ffffff;
+  font-weight: bold;
+  color: rgb(84, 21, 84);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid;
+}
+
+.porcentaje--div {
+  width: 390px;
+  height: 405px;
+}
+
+.porcentaje {
+  width: 390px;
+  height: 122px;
+  text-align: center;
+  margin-top: 5rem;
+  padding-bottom: 2rem;
+  gap: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.porcentaje--span {
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: normal;
+  font-size: 3rem;
+  white-space: nowrap;
+  display: inline-block;
+  margin-bottom: 0.25rem;
+  color: rgb(84, 21, 84);
+}
+
+.porcentaje--li {
+  display: flex;
+  flex-direction: column;
+}
+
+.porcentaje--p {
+  width: 190px;
+  height: 40px;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  line-height: 1.4286;
+  letter-spacing: normal;
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-left: 25%;
+}
+
+.vdo {
+  width: 390px;
+  height: 770px;
+  background-color: rgb(255, 255, 255);
+}
+
+.video--div {
+  width: 390px;
+  height: 208px;
+  margin-bottom: 40px;
+}
+
+.video--video {
+  width: 95%; /* Ajustar el ancho del video al 100% del contenedor */
+  border-radius: 0 100px 100px 0; /* Borde redondeado a la derecha */
+}
+
+.employees--div {
+  padding: 32px;
+}
+
+.employees--p {
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.517;
+  letter-spacing: -0.5px;
+  margin-top: 0;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.employees--span {
+  box-sizing: inherit;
+  font-weight: 700;
+  display: block;
+  letter-spacing: 1px;
+  padding: 2px 0px;
+}
+
+.employees--span__director {
+  box-sizing: inherit;
+  display: block;
+  letter-spacing: 1px;
+  padding: 5px 0px;
+}
+
+.employees--lnk {
+  width: 326px;
+  height: 38px;
+  line-height: 1.4444;
+  letter-spacing: normal;
+  font-size: 1.125rem;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  padding: 16px 0px;
+  color: #1264a3;
+  cursor: pointer;
+  text-decoration: none;
+  word-break: break-word;
+}
+
+.promedio--div {
+  width: 350px;
+  height: 80px;
+  text-align: center;
+  margin-left: 19px;
+  margin-right: 19px;
+}
+
+.promedio--p {
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.2857;
+  letter-spacing: normal;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+  color: #696969 !important;
+}
+
+.explorework {
+  width: 390px;
+  height: 608px;
+  background-color: rgb(244, 237, 228);
+  padding-top: 2rem !important;
+}
+
+.explorework--div {
+  width: 358.78px;
+  height: 57px;
+  padding: 0px 15.616px;
+}
+
+.explorework--h2 {
+  margin: 19.92px 0px 16px;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center;
+}
+
+.viewplataform--div {
+  width: 359.18px;
+  height: 228px;
+  margin-top: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.viewplataform--img {
+  width: 284px;
+  height: 204px;
+  padding: 12px;
+  background-color: rgb(255, 255, 255);
+}
+
+.viewpltaform--div__two {
+  width: 359.18px;
+  height: 234px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.viewplataform--span {
+  width: 284px;
+  height: 20px;
+  padding: 12px 12px 6px 12px;
+  margin: 0px 26px 0px;
+  font-size: 14px;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+}
+
+.viewplataform--h3 {
+  width: 284px;
+  height: 124px;
+  padding: 0px 12px 12px 12px;
+  margin: 0px 26px 0px;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  font-family: 22.4px Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: normal;
+  font-size: 1.4rem;
+  color: #000;
+  line-height: 30px;
+}
+
+.viewplataform--span__two {
+  width: 284px;
+  height: 20px;
+  padding: 0px 12px 12px 12px;
+  margin: 0px 26px 0px;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.125;
+  letter-spacing: 0.8px;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  color: #1264a3;
+}
+
+.swiper-pagination__div {
+  width: 359.18px;
+  height: 26px;
+  margin-right: 15px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.swiper-pagination__img {
+  width: 100px;
+  height: 26px;
+  display: block;
+  margin: 0 auto;
+}
+
+.discoverslack {
+  width: 390px;
+  height: 264px;
+  background-color: rgb(74, 21, 75);
+  padding: 80px 0px 96px;
+  -webkit-clip-path: ellipse(105% 100% at center top);
+          clip-path: ellipse(105% 100% at center top);
+}
+
+.discoverslack--div {
+  width: 358.78px;
+  height: 123px;
+  padding: 0px 15.616px;
+  margin-top: 10px;
+}
+
+.disvoersalck--h3 {
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.158;
+  letter-spacing: -0.8px;
+  margin-top: 0;
+  font-size: 2rem;
+  color: #fff !important;
+  margin-bottom: 2rem !important;
+  text-align: center;
+}
+
+.btn--discoverslack__one {
+  width: 350px;
+  height: 56px;
+  background-color: #ffffff;
+  font-weight: bold;
+  color: rgb(84, 21, 84);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid;
+}
+
+.btn--discoverslack__two {
+  width: 350px;
+  height: 56px;
+  background-color: rgb(74, 21, 75);
+  font-weight: bold;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid;
+  margin-top: 10px;
+}
+
+footer {
+  width: 390px;
+  height: 950px;
+  background-color: rgb(244, 237, 228);
+}
+
+.slackfooter {
+  width: 390px;
+  height: 300px;
+  padding: 56px 0px 0px;
+}
+
+.slackfooter--div {
+  width: 358.78px;
+  height: 300px;
+  padding: 0px 15.616px;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.slackfooter--img {
+  width: 54px;
+  height: 54px;
+  margin-bottom: 13%;
+}
+
+.slackfooter--span {
+  flex: 1;
+  width: 100%;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 550;
+  font-size: 14px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.86rem;
+  height: 40px;
+}
+
+.slackfooter--span::after {
+  content: ">";
+  margin-right: 5px; /* Agrega espacio entre el texto y la flecha */
+  font-weight: bold;
+  font-size: 18px;
+  align-items: center;
+}
+
+.slackfooter--div__two {
+  width: 358.78px;
+  height: 360px;
+  padding: 0px 15.616px;
+}
+
+.slackfooter--ul {
+  width: 359px;
+  height: 364px;
+  padding: 16px 0px 0px;
+  border-top: 2px solid #d3d3d3;
+}
+
+.slackfooter--li {
+  flex: 1;
+  width: 100%;
+  color: #000;
+  font-weight: 550;
+  font-size: 14px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.86rem;
+  height: 40px;
+  margin: 0px 16px 0px 0px;
+  padding: 5px 0px;
+}
+
+.slackfooter--li__iconone {
+  flex: 1;
+  width: 100%;
+  color: #000;
+  font-weight: 550;
+  font-size: 14px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.86rem;
+  height: 40px;
+  margin: 0px 16px 0px 0px;
+  padding: 5px 0px;
+  background-image: url(../../assets/si.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 36px;
+}
+
+.slackfooter--li__icontwo {
+  flex: 1;
+  width: 100%;
+  color: #000;
+  font-weight: 550;
+  font-size: 14px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.86rem;
+  height: 40px;
+  margin: 0px 16px 0px 0px;
+  padding: 5px 0px;
+  background-image: url(../../assets/globo.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 21px;
+}/*# sourceMappingURL=style.css.map */
